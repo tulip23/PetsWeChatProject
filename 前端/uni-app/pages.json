@@ -1,0 +1,211 @@
+{
+	"pages": [
+		{
+		    "path" : "pages/home/home",
+		    "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus":{
+					"scrollIndicator":"none",
+					"titleNView":{
+						"searchInput":{
+							"align":"center",
+							"backgroundColor":"#F7F7F7",
+							"borderRadius":"4px",
+							"placeholder":"搜索爱宠",
+							"placeholderColor":"#CCCCCC",
+							"disabled":false
+						}	
+					}
+				}
+			}
+		},
+		{
+		    "path" : "pages/community/community",
+		    "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+		    "path" : "pages/service/service",
+		    "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "服务"
+			}
+		},
+		{
+		    "path" : "pages/sendPost/sendPost",
+		    "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "发贴"
+			}
+		},
+		{
+		    "path" : "pages/indexDetail/indexDetail",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/chat/chat",
+		    "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "聊天"
+			}
+		},
+		{
+		    "path" : "pages/demandAdopt/demandAdopt",
+		    "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "申请领养"
+			}
+		},
+		{
+		    "path" : "pages/adoptDetail/adoptDetail",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/search/search",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/mylogin/mylogin",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/sendRaise/sendRaise",
+		    "style" : {
+		    	"navigationBarTextStyle": "black",
+		    	"navigationBarTitleText": "发布送养"
+		    }
+		},
+		{
+		    "path" : "pages/sendAdopt/sendAdopt",
+		    "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "发布领养"
+			}
+		},
+		{
+		    "path" : "pages/sign/sign",
+		    "style" : {
+		    	"navigationBarTextStyle": "black",
+		    	"navigationBarTitleText": "领养签到"
+		    }
+		},
+		{
+		    "path" : "pages/serviceDetail/cut",
+		    "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "宠物造型"
+			}
+		},
+		{
+		    "path" : "pages/serviceDetail/wash",
+		    "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "宠物洗护"
+			}
+		},
+		{
+		    "path" : "pages/serviceDetail/hospital",
+		    "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "宠物医疗"
+			}
+		},
+		{
+		    "path" : "pages/serviceDetail/keep",
+		    "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "宠物寄养"
+			}
+		},
+		{
+		    "path" : "pages/comment/comment",
+		    "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "社区评论"
+			}
+		},
+		{
+		    "path" : "pages/myresponce/myresponce",
+		    "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "社区评论回复"
+			}
+		},
+		{
+		    "path" : "pages/forgetpassword/forget",
+		    "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "找回密码"
+			}
+		},
+		{
+		    "path" : "pages/myService/myService",
+		    "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "服务记录"
+			}
+		},
+		{
+		    "path" : "pages/myPost/myPost",
+		    "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的发帖记录"
+			}
+		},
+		{
+		    "path" : "pages/myRaise/myRaise",
+		    "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的送/领养记录"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "爱宠小窝",
+		"navigationBarBackgroundColor": "#ffd33f",
+		"backgroundColor": "#F8F8F8"
+	},
+	
+	// 底部导航
+	"tabBar":{
+		"color":"#ADADAD",
+		"selectedColor":"#f67001",
+		"backgroundColor":"#FFFFFF",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/index.png",
+				"selectedIconPath":"./static/index-active.png"
+			},
+			{
+				"pagePath":"pages/service/service",
+				"text":"服务",
+				"iconPath":"static/service.png",
+				"selectedIconPath":"./static/service-active.png"
+			},
+			{
+				"pagePath":"pages/community/community",
+				"text":"社区",
+				"iconPath":"static/community.png",
+				"selectedIconPath":"./static/community-active.png"
+			},
+			{
+				"pagePath":"pages/home/home",
+				"text":"我的",
+				"iconPath":"static/home.png",
+				"selectedIconPath":"./static/home-active.png"
+			}
+		]
+	}
+}
